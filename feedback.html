@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="feedback.css">
+  <link rel="stylesheet" href="common.css">
+
+
+</head>
+<body>
+
+  <header>
+    <img src="logo2.png" alt="Logo" class="logo">
+    <div class="navbar">
+      <a href="home.html">Home</a>
+      <a href="#about">About</a>
+      <a href="#footer">Contact</a>
+      <a href="#SiteMap">SiteMap</a>
+      <a href="feedback.html">Feedback</a>
+      <a href="#signup" class="signup">Sign Up</a>
+      <a href="#signin" class="signin">Sign In</a>
+    </div>
+  </header>
+    <br><br>
+
+    <div class="out_of_form">
+      <form action="mailto:oshadha.20220857@iit.ac.lk" method="post" enctype="text/plain" onsubmit="return validateForm()">
+        <h3 >Feedback</h3>
+        <label for="name">Enter your name</label>  
+        <input type="text" id="name" placeholder="Enter Your name" onkeyup="validateName()">
+        <span id="name-error"></span><br>
+  
+        <label for="email">Enter your email</label>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="email" id="Email" placeholder="Enter your email" onkeyup="validateEmail()">
+        <span id="email-error"></span><br><br>
+  
+        <label>Was this your first time visiting </label><br>
+        <div class="radio1">
+          <input type="radio" name="visit" id="visitYes" value="yes">
+          <label for="visitYes">Yes</label>
+  
+          <input type="radio" name="visit" id="visitNo" value="No">
+          <label for="visitNo">NO</label>
+        </div><br><br>
+  
+        <label>Was this Web site informative and easy to navigate through </label><br>
+        <div class="radio1">
+          <input type="radio" name="easy" id="easyYes" value="yes">
+          <label for="easyYes">Yes</label>
+  
+          <input type="radio" name="easy" id="easyNo" value="No">
+          <label for="easyNo">NO</label>
+        </div><br><br>
+  
+        <label for="content">If "No" suggest any improvement for the future </label><br><br>
+        <textarea id="content" name="content" rows="8" cols="60"></textarea><br><br>
+        <span id="textarea-error"></span><br><br>
+  
+        <label> How satisfied are you with Our services? Choose from 0 to 10, with 1 being "Not satisfied at all!" and 10 being "Extremely satisfied!"</label><br>
+        <div class="radio-container">
+          <div>
+            <label for="rating1">1</label>
+            <input type="radio" name="rating" id="rating1" value="1">
+          </div>
+          <div>
+            <label for="rating2">2</label>
+            <input type="radio" name="rating" id="rating2" value="2">
+          </div>
+          <div>
+            <label for="rating3">3</label>
+            <input type="radio" name="rating" id="rating3" value="3">
+          </div>
+          <div>
+            <label for="rating4">4</label>
+            <input type="radio" name="rating" id="rating4" value="4">
+          </div>
+          <div>
+            <label for="rating5">5</label>
+            <input type="radio" name="rating" id="rating5" value="5">
+          </div>
+          <div>
+            <label for="rating6">6</label>
+            <input type="radio" name="rating" id="rating6" value="6">
+          </div>
+          <div>
+            <label for="rating7">7</label>
+            <input type="radio" name="rating" id="rating7" value="7">
+          </div>
+          <div>
+            <label for="rating8">8</label>
+            <input type="radio" name="rating" id="rating8" value="8">
+          </div>
+          <div>
+            <label for="rating9">9</label>
+            <input type="radio" name="rating" id="rating9" value="9">
+          </div>
+          <div>
+            <label for="rating10">10</label>
+            <input type="radio" name="rating" id="rating10" value="10">
+          </div>
+        </div>
+        <br><br>
+  
+        <label>Would you like to recommend our service</label><br>
+        <div class="radio1">
+          <input type="radio" name="recommend" id="recommendYes" value="yes">
+          <label for="recommendYes">Yes</label>
+  
+          <input type="radio" name="recommend" id="recommendNo" value="No">
+          <label for="recommendNo">NO</label><br><br>
+  
+          <label for="content1">If "No" suggest any improvement for the future </label><br><br>
+        <textarea id="content1" name="content" rows="8" cols="60"></textarea><br><br>
+        <span id="textarea-error1"></span><br><br>
+          
+        
+        
+        <button id="preview-button" type="button" class="bt" onclick="previewForm()">Preview</button>
+        <button id="form_button1" type="submit" class="bt">Send</button>  
+          <br> 
+        <input id="form_button3" type="reset" name="reset_button" value="reset" onclick="reload()" class="bt">
+        </div>
+      </form>
+    </div>
+    
+    <script src="feedback.js"></script>
+
+  <footer class="footer-part">
+    <img src="thirdbg2.png" alt="" class="lastbg">
+    <div>
+      <img src="logo3.png" alt="" class="logo-3">
+    </div>
+  
+    <div class="footer-text">Follow us</div>
+    <div class="footer-text2">Contact us</div>
+    <div class="footer-text3">+94785742630</div>
+    <div class="footer-text4">travelsrilanka@gmail.com</div>
+    <div class="footer-text5">Page Efitors</div>
+  
+  
+  <div class="footer">
+    <h3>Page Editors</h3>
+  
+    <img src="male.png" alt="" class="male-icon">
+    <img src="male2.png" alt="" class="male-icon2">
+    <img src="male3.png" alt="" class="male-icon3">
+    <img src="male4.png" alt="" class="male-icon4">
+    <img src="w.png" alt="" class="social-media1">
+    <img src="t.png" alt="" class="social-media2">
+    <img src="y.png" alt="" class="social-media3">
+    <img src="i.png" alt="" class="social-media4">
+    <img src="line.png" alt="" class="line">
+    <img src="mail.png" alt="" class="contact1">
+    <img src="call.png" alt="" class="contact2">
+    <img src="line.png" alt="" class="line2">
+  </div>
+    
+  </footer>
+
+  </body>
+</html>
+
+

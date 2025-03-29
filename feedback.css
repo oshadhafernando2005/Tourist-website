@@ -1,0 +1,84 @@
+
+  
+  /* CSS for styling the feedback form */
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #006400; /* Dark green text */
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* CSS for styling the feedback form */
+  
+  /* Form container styles */
+  /* Style for form container */
+  .out_of_form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for form labels */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Style for input fields */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style for radio button groups */
+  .radio1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .radio-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .radio-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px; /* Adjust margin as needed */
+  }
+  
+  /* Style for buttons */
+  .bt {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style for error messages */
+  .error {
+    color: red;
+  }
+  
+  /* Style for line break */
+  br {
+    clear: both;
+  }
+  .footer-part{
+    margin-top: -800px;
+  }

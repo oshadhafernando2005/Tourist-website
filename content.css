@@ -1,0 +1,131 @@
+
+body{
+  background-image: url(foodbj.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.topic{
+    color: rgb(235, 227, 227);
+    font-size: 170%;
+    text-align: center;
+    margin-top: 400px;
+}
+.menu{
+    width: 100%;
+    margin-top: 200px;
+    position: absolute;
+}
+.fish{
+    width: 600px;
+    margin-left: 330px;
+    margin-top: 600px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.kottu{
+    width: 600px;
+    margin-left: 330px;
+    margin-top: 1300px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.chicken{
+    width: 600px;
+    margin-left: 330px;
+    margin-top: 2000px;
+    position: absolute;
+    border-radius: 30px;
+    height: 400px;
+}
+
+.rice{
+    width: 600px;
+    margin-left: 330px;
+    margin-top: 2700px;
+    position: absolute;
+    border-radius: 30px;
+    height: 400px;
+}
+
+.square1{
+  width: 600px;
+    margin-left: 330px;
+    margin-top: 900px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.square2{
+  width: 600px;
+    margin-left: 330px;
+    margin-top: 1600px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.square3{
+  width: 600px;
+    margin-left: 330px;
+    margin-top: 2300px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.square4{
+  width: 600px;
+    margin-left: 330px;
+    margin-top: 3000px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.text1 {
+        position: absolute;
+        top: 1530px;
+        left: 300px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility */
+    }
+
+  .text2 {
+        position: absolute;
+        top: 2230px;
+        left: 300px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility */
+    } 
+    
+    .text3 {
+        position: absolute;
+        top: 2930px;
+        left: 300px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility */
+    } 
+
+    .text4 {
+        position: absolute;
+        top: 3630px;
+        left: 300px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility */
+    } 
+    .footer-part{
+      margin-top: 3500px;
+    }
+
+  

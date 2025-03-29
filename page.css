@@ -1,0 +1,61 @@
+body {
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url("climate\ changes.jpg");
+}
+
+header {
+    background-color: #45d37b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: rgba(0, 128, 0, 0.2); /* Green with transparency */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.3); /* Shadow effect */
+}
+
+.content h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #006400; /* Dark green */
+}
+
+.content h3 {
+    text-align: center;
+    color: #006400; /* Dark green */
+}
+
+.content p {
+    text-align: justify;
+    font-size: 16px;
+    color: #006400; /* Dark green */
+}
+
+.content ol li {
+    margin-bottom: 50px;
+}
+
+.content ol li p {
+    color: #006400; /* Dark green */
+}
+
+.content ol li strong {
+    color: #008000; /* Green */
+}
+
+.content ol li p a {
+    color: #007bff; /* Blue */
+}
+
+.content ol li p a:hover {
+    color: #0056b3; /* Dark blue on hover */
+}

@@ -1,0 +1,249 @@
+.navbar {
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center; /* Center text horizontally */
+    margin-left: 150px;
+    }
+    
+    img.logo {
+      position: absolute; /* Set position to absolute */
+      top: 20px; /* Align to the top of the navbar */
+      left: 5px; /* Align to the left of the navbar */
+      width: 5cm; /* Set width to 3cm */
+      height: auto; /* Maintain aspect ratio */
+      margin: 0px; /* Add some space around the logo */
+    }
+    
+    /* Navigation links */
+    .navbar a {
+      display: inline-block;
+      color: #ffffff; /* Default color set to gray */
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: color 0.3s; /* Smooth transition for color change */
+      margin-right: 20px; 
+      font-size: 20px;
+    }
+    
+    /* On hover, change text color */
+    .navbar a:hover {
+      color: #7ae976; /* Color transition to #7ae976 on hover */
+    }
+    
+    /* Style for active link */
+    .navbar a.active {
+      color: #000; /* Change color for active link to black */
+    }
+    
+    /* Sign up and Sign in buttons */
+    .navbar .signup, .navbar .signin {
+      display: inline-block;
+      color: #ffffff;
+      text-align: center;
+      padding: 10px 20px;
+      text-decoration: none;
+      border: 1px solid #3f3f3f;
+      border-radius: 30px; /* Makes the buttons oval-shaped */
+      margin: 10px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    
+    /* On hover, change background color */
+    .navbar .signup:hover, .navbar .signin:hover {
+      background-color: #504c4c;
+      color: #333;
+    }
+    
+    /* Align the sign-up and sign-in buttons to the right */
+    .navbar .signup {
+      float: right;
+    }
+    
+    .navbar .signin {
+      float: right;
+    }
+
+    header {
+        background-color: #38a372;
+        border-bottom: 1px solid black;
+      }
+
+      .logo-3{
+        width: 120px;
+        margin-top: 00px;
+        position: absolute;
+        margin-left: 40px;
+      }
+      .footer-part{
+        /*margin-top: 3500px;*/
+        position: relative;
+      }
+      
+      .footer .social-media1 {
+        width: 60px;
+        height: 40px;
+        margin-left: 200px;
+        position: absolute;
+        transition: transform 0.4s ease;
+      }
+      
+      .footer .social-media2 {
+        width: 60px;
+        height: 40px;
+        margin-left: 270px;
+        position: absolute;
+        transition: transform 0.4s ease;
+      }
+      
+      .footer .social-media3 {
+        width: 60px;
+        height: 40px;
+        margin-left: 330px;
+        position: absolute;
+        transition: transform 0.4s ease;
+      }
+      
+      .footer .social-media4 {
+        width: 60px;
+        height: 40px;
+        margin-left: 390px;
+        position: absolute;
+        transition: transform 0.4s ease;
+      }
+      
+      .footer .social-media1:hover ,.social-media2:hover ,.social-media3:hover ,.social-media4:hover {
+        transform: scale(1.2);
+      }
+      
+      .footer .contact1{
+        width: 50px;
+        height: 40px;
+        margin-left: 590px;
+        position: absolute;
+        transition: transform 0.4s ease;
+      }
+      
+      .footer .contact2{
+        width: 40px;
+        height: 35px;
+        margin-left: 800px;
+        position: absolute;
+        transition: transform 0.4s ease;
+      }
+      .footer .contact1:hover ,.contact2:hover{
+        transform: scale(1.2);
+      }
+      
+      .footer .line{
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        margin-left: 440px;
+      }
+      
+      .footer .line2{
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        margin-left: 900px;
+      }
+      
+      .footer-text{
+        width: 110px;
+        margin-top: 20px;
+        margin-left: 300px;
+        color:#38a372;
+        position: absolute;
+        font-size: 20px
+      }
+      
+      .footer-text2{
+        width: 110px;
+        margin-top: 20px;
+        margin-left: 700px;
+        color:#38a372;
+        position: absolute;
+        font-size: 20px
+      }
+      .footer-text3{
+        width: 110px;
+        margin-top: 140px;
+        margin-left: 765px;
+        color:#38a372;
+        position: absolute;
+        font-size: 20px
+      }
+      .footer-text4{
+        width: 110px;
+        margin-top: 140px;
+        margin-left: 510px;
+        color:#38a372;
+        position: absolute;
+        font-size: 20px
+      }
+      
+      .footer-text5{
+        width: 110px;
+        margin-top: 20px;
+        margin-left: 1110px;
+        color:#38a372;
+        position: absolute;
+        font-size: 20px
+      }
+      
+      .lastbg{
+        position: absolute;
+        width: 100%;
+        height: 180px;
+        margin-top: 0px;
+      }
+      .footer img{
+        position: absolute;
+      }
+      .footer .male-icon{
+        width: 60px;
+        height: 70px;
+        margin-left: 980px;
+        transition: transform 0.4s ease;
+        
+      }
+      
+      .footer .male-icon2{
+        width: 60px;
+        height: 70px;
+        margin-left: 1070px;
+        transition: transform 0.4s ease;
+      }
+      
+      .footer .male-icon3{
+        width: 60px;
+        height: 70px;
+        margin-left: 1160px;
+        transition: transform 0.4s ease;
+      }
+      
+      .footer .male-icon4{
+        width: 60px;
+        height: 70px;
+        margin-left: 1250px;
+        transition: transform 0.4s ease;
+      }
+      
+      .footer .male-icon:hover ,.male-icon2:hover ,.male-icon3:hover ,.male-icon4:hover {
+        transform: scale(1.2);
+      }
+      
+      .footer h3 {
+                  color: #38a372;
+                  padding: 20px;
+                  text-align: right;   
+                  margin-right: 100px;
+                  margin-top: 900px;
+                  
+      }
+      .footer img {
+                  width: 30px;
+                  height: 15px;
+                  margin: 0 10px;
+      }
